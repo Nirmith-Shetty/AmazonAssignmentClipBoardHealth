@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 28.617 s <<< FAILURE! - in TestSuite
+verifySuccessfulNavigationToAmazonPage(com.amazon.tests.AmazonTests)  Time elapsed: 1.687 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C02F5AJAMD6M', ip: 'fe80:0:0:0:187f:b6a3:a675:a894%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/3l/01vsgtpj6rl...}, goog:chromeOptions: {debuggerAddress: localhost:63050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afc4670afda7700e1ddf2d046704170b
+	at com.amazon.tests.AmazonTests.verifySuccessfulNavigationToAmazonPage(AmazonTests.java:19)
+
+verifyTelevisionPageIsDisplayed(com.amazon.tests.AmazonTests)  Time elapsed: 0.055 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C02F5AJAMD6M', ip: 'fe80:0:0:0:187f:b6a3:a675:a894%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/3l/01vsgtpj6rl...}, goog:chromeOptions: {debuggerAddress: localhost:63050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afc4670afda7700e1ddf2d046704170b
+*** Element info: {Using=id, value=nav-hamburger-menu}
+	at com.amazon.tests.AmazonTests.verifyTelevisionPageIsDisplayed(AmazonTests.java:27)
+
+verifySamsungTelevisionAreOnlyDisplayed(com.amazon.tests.AmazonTests)  Time elapsed: 10.235 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C02F5AJAMD6M', ip: 'fe80:0:0:0:187f:b6a3:a675:a894%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/3l/01vsgtpj6rl...}, goog:chromeOptions: {debuggerAddress: localhost:63050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afc4670afda7700e1ddf2d046704170b
+*** Element info: {Using=xpath, value=//div[@id='s-refinements']//following::span[text()='Brands']//following::span[text()='Samsung']}
+	at com.amazon.tests.AmazonTests.verifySamsungTelevisionAreOnlyDisplayed(AmazonTests.java:39)
+
+verifySecondHighestSamsungTVIsDisplayed(com.amazon.tests.AmazonTests)  Time elapsed: 0.007 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.125)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C02F5AJAMD6M', ip: 'fe80:0:0:0:187f:b6a3:a675:a894%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/3l/01vsgtpj6rl...}, goog:chromeOptions: {debuggerAddress: localhost:63050}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afc4670afda7700e1ddf2d046704170b
+*** Element info: {Using=xpath, value=//img[@data-image-index='2']}
+	at com.amazon.tests.AmazonTests.verifySecondHighestSamsungTVIsDisplayed(AmazonTests.java:52)
+
